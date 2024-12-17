@@ -2,18 +2,41 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001280
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Closed-loop modulation of remote hippocampal representations with neurofeedback
-  (2024). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001280/draft
+citation: Coulter, Michael; Frank, Loren (2024) Closed-loop modulation of remote hippocampal
+  representations with neurofeedback (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001280/draft
 contributor:
-- awardNumber: 1 F32 MH 123003-01
-  name: National Institutes of Health (NIH)
+- includeInCitation: false
+  name: Simons Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Howard Hughes Medical Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- email: michael.coulter@ucsf.edu
+  includeInCitation: true
+  name: Coulter, Michael
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- email: loren.frank@ucsf.edu
+  includeInCitation: true
+  name: Frank, Loren
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- includeInCitation: false
+  name: National Institutes of Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -22,15 +45,29 @@ description: Dorsal hippocampus CA1 extracellular recordings from male, Long Eva
   rats. Rats were engaged in a neurofeedback task during recording. This data was
   collected as part of the manuscript entitled "Closed-loop modulation of remote hippocampal
   representations with neurofeedback."
+ethicsApproval:
+- contactPoint:
+    email: michael.coulter@ucsf.edu
+    schemaKey: ContactPoint
+  identifier: AN191130
+  schemaKey: EthicsApproval
 id: DANDI:001280/draft
 identifier: DANDI:001280
+keywords:
+- hippocampus
+- rat
+- tetrode
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001280/versions/draft/assets/
 name: Closed-loop modulation of remote hippocampal representations with neurofeedback
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001280/draft
 version: draft
+wasGeneratedBy: []
